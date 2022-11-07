@@ -1,249 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!
+1. Text formatting
+2. Links (3 links)
+3.Images (3 images)
+4.Image Map ( meaning ful image map using all area)
+5. Lists (all types)
+6. Tables  (rowspan, col span to be utilised)
+7. Forms ( 5 input types to be used)
+>
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Web Page</title>
-    <link href="index.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LAB1</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet"> 
+
 </head>
-<body>
+<body class="body"> 
 
-    <div class="header">
-        
-        <a href="#">Online Voting</a>
-        <div class="nav-link">
-            <a href="#">Home</a>
-            <a class="nopad" href="#"><div class="openBtn">
-                <button class="openButton" data-modal="modalZero">Register</button>
-              </div></a>
-            <a href="#">Voting</a>
-            <a href="#">Election Results</a>
-            <a class="nopad" href="#"><div class="openBtn">
-                <button class="openButton" data-modal="modalOne">Contact us</button>
-              </div></a>
-              <a class="nopad" href="#"><div class="openBtn">
-                <button class="openButton" data-modal="modalTwo">Register Complaint</button>
-              </div></a>
-        </div>
-    </div>
+<! TEXT FORMATTING>
 
-    <div class="banner dark">
-        <p><b>We are open by appointment only</b> / Please call 760-878-0224 to schedule appointment</p>
-    </div>
-    <div class="banner light">
-        <h1>This is the new official Voting system Website</h1>
-        <p>The website has been updated to provide voters an even easier way to find important election and voting information</p>
-    </div>
+<! LINKS>
 
-    <div class="content">
-        <div class="tiles"><img src="https://image.shutterstock.com/image-vector/registration-icon-on-white-background-260nw-331182206.jpg" alt="registration" usemap="#workmap"></div>
-        <div class="tiles"><img src="https://cdn-icons-png.flaticon.com/512/4812/4812397.png" alt="registration" usemap="#workmap"></div>
-        <div class="tiles"><img src="https://previews.123rf.com/images/trimulyani/trimulyani2003/trimulyani200300137/141296348-speaker-icon-vector-design-symbol.jpg" alt="registration" usemap="#workmap"></div>
-        <div class="tiles"><img src="https://image.shutterstock.com/image-vector/newspaper-icon-thin-line-web-260nw-282635822.jpg" alt="registration" usemap="#workmap"></div>
-        
-    </div>
-
-    <map name="workmap">
-        <area shape="default" alt="default" href="www.google.com">
-    </map>
-
-    <div class="table"><table>
-        <tr>
-            <th colspan="8">Voting Timings</th>
-        </tr>
-        <tr>
-            <th></th>
-            <th>9:00-10:00</th>
-            <th>10:00-11:00</th>
-            <th>11:00-12:00</th>
-            <th>12:00-1:00</th>
-            <th class="rotate" rowspan="6">Lunch<br> break</th>
-            <th>2:00-3:00</th>
-            <th>3:00-4:00</th>
-        </tr>
-        <tr>
-            <td>Monday</td>
-            <td>SE(VT)</td>
-            <td>MP(RK)</td>
-            <td class="grey" colspan="2">G2:MP LAB(RK,RV) 811<br>G1:WSD LAB(KL,SA)813</td>
-            <td>WSD(KL)</td>
-            <td>RM(SD)</td>
-        </tr>
-        <tr>
-            <td>Tuesday</td>
-            <td class="grey" colspan="3">DBT LAB(RU,JC,SD,FIZAN)MCA LAB</td>
-            <td>DBT(RU)</td>
-            <td>LIBRARY</td>
-            <td>WSD(KL)</td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td>MP(RK)</td>
-            <td>RM(SD)</td>
-            <td>WSD(KL)</td>
-            <td>SE(VT)</td>
-            <td>LIBRARY</td>
-            <td>DBT(RU)</td>
-        </tr>
-        <tr>
-            <td>Thursday</td>
-            <td>SE(VT)</td>
-            <td>DBT(RU)</td>
-            <td class="grey" colspan="2">G1:MP LAB(RK,RV) 811<br>G2:WSD LAB(KL,SA)813</td>
-            <td>MP(RK)</td>
-            <td>LIBRARY</td>
-        </tr>
-        <tr>
-            <td>Friday</td>
-            <td>WSD(KL)</td>
-            <td>RM(SD)</td>
-            <td class="grey" colspan="2">G1:MP LAB(RK,RV) 811<br>G2:WSD LAB(KL,SA)813</td>
-            <td>MP(RK)</td>
-            <td>DBT(RU)</td>
-        </tr>
-        <tr>
-            <td>Friday</td>
-            <td class="grey" colspan="2">G1:MP LAB(RK,RV) 811<br>G2:WSD LAB(KL,SA)813</td>
-            <td>SE(VT)</td>
-            <td>MENTORING</td>
-            <td border="0"></td>
-            <td border="0"></td>
-            <td border="0"></td>
-        </tr>
-    </table></div>
-
-    <div class="list"><div><h3>Candidates</h3>
-        <ul>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-        </ul></div>
-        <div>
-        <h3>Candidates</h3>
-        <ol>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-            <li>Name</li>
-        </ol></div>
-        <div>
-        <h3>Candidates</h3>
-        <dl>
-            <dt>Candidate1</dt>
-            <dr>Name</dr>
-            <dt>Candidate2</dt>
-            <dr>Name</dr>
-            <dt>Candidate3</dt>
-            <dr>Name</dr>
-            <dt>Candidate4</dt>
-            <dr>Name</dr>
-            <dt>Candidate5</dt>
-            <dr>Name</dr>
-            <dt>Candidate6</dt>
-            <dr>Name</dr>
-            <dt>Candidate7</dt>
-            <dr>Name</dr>
-            <dt>Candidate8</dt>
-            <dr>Name</dr>
-        </dl></div>
-    </div>
+<a href="https://www.youtube.com/"><strong>YOUTUBE LINK</strong></a><br>
+<a href="https://www.geeksforgeeks.org/"><small>GEEKFORGEEKS LINK</small></a><br>
+<a href="https://www.simplilearn.com/">SIMPLELEARN <sub>LINK</sub></a><br><br>
+<a href="mailto:someone@gmail.com"><em>Send email</em></a><br>
 
 
-    <div id="modalZero" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <a class="close">&times;</a>
-            <form action="/">
-              <h2>Register</h2>
-              <div>
-                <input class="fname" type="text" name="name" placeholder="Full name" />
-                <input type="text" name="name" placeholder="Email" />
-                <input type="text" name="name" placeholder="Phone number" />
-              </div>
-              <button type="submit" href="/">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
+<! IMAGES>
+<img src="img1.jpg" usemap="#img1" style="width:450px;height:300px;"> 
+<img src="img2.jpg" usemap="#img2" style="width:400px;height:300px;"> 
+<img src="img3.jpg" alt="Workplace" usemap="#img3" style="width:400px;height:300px;"> <br>
 
-    <div id="modalOne" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <a class="close">&times;</a>
-            <form action="/">
-              <h2>Contact Us</h2>
-              <div>
-                <input class="fname" type="text" name="name" placeholder="Full name" />
-                <input type="text" name="name" placeholder="Email" />
-                <input type="text" name="name" placeholder="Phone number" />
-                <input type="text" name="name" placeholder="Website" />
-              </div>
-              <span>Message</span>
-              <div>
-                <textarea rows="4"></textarea>
-              </div>
-              <button type="submit" href="/">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
+<! IMAGE MAP>
 
-      <div id="modalTwo" class="modal">
-        <div class="modal-content">
-          <div class="contact-form">
-            <span class="close">&times;</span>
-            <form action="/">
-              <h2>Complaint form</h2>
-              <div>
-                <input class="fname" type="text" name="name" placeholder="Full name" />
-                <input type="text" name="name" placeholder="Email" />
-                <input type="text" name="name" placeholder="Phone number" />
-                <input type="text" name="name" placeholder="Website" />
-              </div>
-              <span>Message</span>
-              <div>
-                <textarea rows="4"></textarea>
-              </div>
-              <button type="submit" href="/">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
+	<map name="img3">
+	  <area shape="default" href="https://www.honda2wheelersindia.com/">
+	</map> 
+	<map name="img2">
+	  <area shape="default" href="https://in.bookmyshow.com/">
+	</map> 
+	<map name="img1">
+	  <area shape="default" href="https://www.eatfit.in/">
+	</map> 
 
-    <script>
-        let modalBtns = [...document.querySelectorAll(".openButton")];
-      modalBtns.forEach(function (btn) {
-        btn.onclick = function () {
-          let modal = btn.getAttribute("data-modal");
-          document.getElementById(modal).style.display = "block";
-        };
-      });
-      let closeBtns = [...document.querySelectorAll(".close")];
-      closeBtns.forEach(function (btn) {
-        btn.onclick = function () {
-          let modal = btn.closest(".modal");
-          modal.style.display = "none";
-        };
-      });
-      window.onclick = function (event) {
-        if (event.target.className === "modal") {
-          event.target.style.display = "none";
-        }
-      };
-    </script>
-    
+<! LISTS>
+<!-- <center> -->
+<div class="list">
+<h4>Unordered list</h4>
+      <ul>
+         <li>Web Stack</li>
+         <li>Microprocessor</li>
+         <li>Research</li>
+         <li>Software</li>
+         <li>Database</li>
+      </ul>
+
+<h4>Ordered list</h4>
+      <ol>
+          <li>Web Stack</li>
+         <li>Microprocessor</li>
+         <li>Research</li>
+         <li>Software</li>
+         <li>Database</li>
+      </ol>
+
+<h4>Description list</h4>
+      <dl>
+         <dt><b>Monday</b></dt>
+         <dd>First Day of the Week</dd>
+         <dt><b>Lenovo</b></dt>
+         <dd>A brand of a Laptop</dd>
+         <dt><b>Computer Science</b></dt>
+         <dd>A particular subject</dd>
+      </dl>
+</div>  
+
+<!-- </center> -->
+<! TABLES>
+<div class="tables">  
+
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Tom</td>
+    <td>Dsouza</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Royce</td>
+    <td>Paul</td>
+    <td>22</td>
+  </tr>
+</table>
+</div>  
+
+
+<! FORMS>
+
+<form action="/action_page.php">  
+    <label for="ename">NAME: 	</label>  
+    <input type="text" id="name" name="name"/> <br/>
+    <label for="email">EMAIL: 	</label>  
+    <input type="email" id="email" name="email"/> <br/>  
+    <label for="password">PASSWORD:</label>  
+    <input type="password" id="password" name="password"/> <br/>  
+    <label for="gender">Gender: </label>  
+              <input type="radio" id="gender" name="gender" value="male">Male  
+              <input type="radio" id="gender" name="gender" value="female">Female
+              <input type="radio" id="gender" name="gender" value="other">Other <br/>  
+    <p>Select Subject</p>
+    <input type="checkbox">  
+    <label for="Maths">Maths</label> <br>  
+    <input type="checkbox">  
+    <label for="Science">Science</label> <br>  
+    <input type="checkbox">  
+	  <label for="English">English</label> <br>
+    <input type="submit" value="Submit">
+</form> 
+
 </body>
 </html>
