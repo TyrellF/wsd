@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="vote.xsl" type="text/xsl"?>
+<?xml-model href="vote.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<onlineVoting>
+    <voters>
+        <voter>
+            <name>aritra</name>
+            <age>40</age>
+            <aadhar>111111111111</aadhar>
+            <phone>1265465454</phone>
+            <gender>male</gender>
+            <partyVoted>party</partyVoted>
+        </voter>
+    </voters>
+
+    <candidates>
+        <candidate>
+            <name>tyrell</name>
+            <age>50</age>
+            <aadhar>555555555555</aadhar>
+            <phone>4894545154</phone>
+            <gender>male</gender>
+            <party>lonely</party>
+        </candidate>
+    </candidates>
+
+    <admins>
+        <admin>
+            <username>admin</username>
+            <password>12345</password>
+        </admin>
+    </admins>
+</onlineVoting>
