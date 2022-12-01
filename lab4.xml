@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="lab4.xsl"?>
+<hotel>
+
+    <customer>
+        <fname>Aniket</fname>
+        <lname>Singh</lname>
+        <email>aniket.singh@mca.christuniversity.in</email>
+        <number>6204081417</number>
+        <address>Bangalore</address>
+        <roomtype>Double Sharing</roomtype>
+    </customer>
+    
+    <customer>
+        <fname>Karthik</fname>
+        <lname>Pohane</lname>
+        <email>karthik.pohane@mca.christuniversity.in</email>
+        <number>9566214423</number>
+        <address>Vardha</address>
+        <roomtype>Double Sharing</roomtype>
+    </customer>
+
+    <customer>
+        <fname>Adithyo</fname>
+        <lname>Gope</lname>
+        <email>aditya.gope@mca.christuniversity.in</email>
+        <number>8403217773</number>
+        <address>Dharamshala</address>
+        <roomtype>Single Sharing</roomtype>
+    </customer>
+
+    <customer>
+        <fname>Arithra</fname>
+        <lname>Sarkar</lname>
+        <email>arithra.sarkar@mca.christuniversity.in</email>
+        <number>9431150077</number>
+        <address>Kolkata</address>
+        <roomtype>Single Sharing</roomtype>
+    </customer>
+
+</hotel>
