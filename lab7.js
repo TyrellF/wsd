@@ -30,7 +30,7 @@ angular.module("mycustomer",[])
 {
     return function(input)
     {
-        if(input>55)
+        if(input>50)
         {
             return input+ "  (5% discount)";
         }
@@ -45,7 +45,7 @@ angular.module("mycustomer",[])
         {name:'Tyrell',dob:new Date("august 4, 2000"), gender:"male",charge:1000000000.75,city:"goa",roomType:"super delux", totalpeople:2, age:10},
         {name:'Aditya',dob:new Date("august 8, 2000"), gender:"male",charge:1000000.75, city:"kolkota", roomType:"delux", totalpeople:4, age:30},
         {name:'Aritra',dob:new Date("july 4, 2000"), gender:"female",charge:56600.75, city:"gujarat",roomType:"general", totalpeople:3, age:57},
-        {name:'Alin',dob:new Date("july 14, 2000"), gender:"male",charge:56600.75, city:"bengal",roomType:"delux", totalpeople:3, age:57},
+        {name:'Alin',dob:new Date("july 14, 2000"), gender:"male",charge:56600.75, city:"bengal",roomType:"delux", totalpeople:3, age:52},
 
 
     ];
